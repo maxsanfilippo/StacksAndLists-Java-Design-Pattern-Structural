@@ -10,19 +10,19 @@ public class StackOfStringTester
 	}
 	public void testStack()
 	{
-		System.out.println(this.mastack.getSize());
+		System.out.println("la taille est de: " + this.mastack.getSize());
 		this.mastack.push("a");
 		System.out.println("j'ai push 'a'");
-		System.out.println(this.mastack.getSize());
+		System.out.println("la taille est de: " + this.mastack.getSize());
 		this.mastack.push("b");
 		System.out.println("j'ai push 'b'");
-		System.out.println(this.mastack.getSize());
+		System.out.println("la taille est de: " + this.mastack.getSize());
 		System.out.println("j'ai peek " + mastack.peek());
-		System.out.println(this.mastack.getSize());
+		System.out.println("la taille est de: " + this.mastack.getSize());
 		System.out.println("j'ai pop " + mastack.pop());
-		System.out.println(this.mastack.getSize());
+		System.out.println("la taille est de: " + this.mastack.getSize());
 		System.out.println("j'ai pop " + mastack.pop());
-		System.out.println(this.mastack.getSize());
+		System.out.println("la taille est de: " + this.mastack.getSize());
 		
 	}
 }
